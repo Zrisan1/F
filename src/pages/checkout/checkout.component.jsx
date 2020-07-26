@@ -34,11 +34,15 @@ const CheckoutPage = ({ cartItems, total }) => (
       {cartItems.map((cartItem) => (
         <CheckoutItem key={cartItem.id} cartItem={cartItem} />
       ))}
+      <h6>(*) Precio por unidad</h6>
       <div className="total">
-        <span>TOTAL: S/. {total.toFixed(2)}</span>
+        <span>
+          TOTAL: S/.
+          {total.toFixed(2)}
+        </span>
       </div>
 
-      <Button price={total} carItem={cartItems} />
+      <Button price={total.toFixed(2)} carItem={cartItems} />
     </div>
   </div>
 );

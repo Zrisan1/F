@@ -1,41 +1,25 @@
 const INITIAL_STATE = {
   sections: [
     {
-      title: "RON",
-      //size: "large",
-      imageUrl: "https://i.ibb.co/BP6Sy2m/RON.jpg",
+      title: "DAMAS",
+      size: "large",
+      imageUrl: "https://i.ibb.co/hXjsR1L/IMG-0603.jpg",
       id: 1,
-      linkUrl: "shop/ron",
+      linkUrl: "shop/damas",
     },
     {
-      title: "PISCO",
-      imageUrl: "https://i.ibb.co/86vTzHC/PISCO.jpg",
+      title: "CABALLEROS",
+      size: "large",
+      imageUrl: "https://i.ibb.co/q53HYXR/IMG-0608.jpg",
       id: 2,
-      linkUrl: "shop/pisco",
+      linkUrl: "shop/caballeros",
     },
     {
-      title: "WISKY",
-      imageUrl: "https://i.ibb.co/S3SWZFS/WHISKY.jpg",
+      title: "NIÑOS",
+      size: "large",
+      imageUrl: "https://i.ibb.co/2MBBz4Q/IMG-1074.jpg",
       id: 3,
-      linkUrl: "shop/wisky",
-    },
-    {
-      title: "VODKA",
-      imageUrl: "https://i.ibb.co/WsF9QNw/VODKA.jpg",
-      id: 4,
-      linkUrl: "shop/vodka",
-    },
-    {
-      title: "COMBOS",
-      imageUrl: "https://i.ibb.co/VqbZsYr/COMBOS.jpg",
-      id: 5,
-      linkUrl: "shop/combos",
-    },
-    {
-      title: "OTROS",
-      imageUrl: "https://i.ibb.co/CK8pF0V/OTROS.jpg",
-      id: 6,
-      linkUrl: "shop/otros",
+      linkUrl: "shop/niños",
     },
   ],
 };
