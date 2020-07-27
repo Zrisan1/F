@@ -12,7 +12,7 @@ const useFirestore = (collection) => {
           direccion: values.address.trim(),
           telefono: values.numero.trim(),
           pedidos: values.data,
-          total: Number(values.total),
+          total: values.total,
           date: new Date(),
         })
         .then(() => {

@@ -48,8 +48,6 @@ const Button = ({ isGoogleSignIn, inverted, price, carItem }) => {
       confirmButtonText: "Si, Realizar pedido!",
     }).then((result) => {
       if (result.value) {
-        //addToFirestore(fields);
-        //cargando alerta
         MySwal.fire({
           title: "Generando Pedido",
           html: "Se esta generando su orden, espere porfavor",
@@ -126,10 +124,11 @@ const Button = ({ isGoogleSignIn, inverted, price, carItem }) => {
           <label>Nro de Celular</label>
           <input
             name="numero"
-            type="text"
+            type="number"
             placeholder="Telefono"
             onChange={handleInputChange}
             className="form-control"
+            minLength={9}
             required
           />
         </div>

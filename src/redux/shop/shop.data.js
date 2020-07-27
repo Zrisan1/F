@@ -483,13 +483,13 @@ const SHOP_DATA = {
         price: 19,
       },
       {
-        id: 78,
+        id: 782,
         name: "Polo de Manga corta - Talla S",
         imageUrl: "https://i.ibb.co/GtDxWSD/polo-hombre-rojo01.jpg",
         price: 17,
       },
       {
-        id: 79,
+        id: 792,
         name: "Polo de Manga corta - Talla M",
         imageUrl: "https://i.ibb.co/GtDxWSD/polo-hombre-rojo01.jpg",
         price: 18,
