@@ -8,24 +8,38 @@ const Barra = () => {
         <div className="col-12">
           <center>
             <span role="img" aria-label="label">
-              <Link to={""}>
+              <a
+                href="https://www.facebook.com/ZoetStore-107067204436025"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i
                   className="fab fa-facebook-square"
                   style={{ fontSize: "38px", marginRight: "40px" }}
                 ></i>
-              </Link>
-              <Link to={""}>
+              </a>
+
+              <a
+                href="https://wa.link/j85ga4"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i
                   className="fab fa-whatsapp-square"
                   style={{ fontSize: "38px", marginRight: "40px" }}
                 ></i>
-              </Link>
-              <Link to={""}>
+              </a>
+
+              <a
+                href="https://www.instagram.com/zoetstore/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i
                   className="fab fa-instagram-square"
                   style={{ fontSize: "38px" }}
                 ></i>
-              </Link>
+              </a>
             </span>
           </center>
           <br />
