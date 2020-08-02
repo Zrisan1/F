@@ -15,7 +15,7 @@ const ContactoPage = () => {
       <div className="row">
         <div className="col-6">
           <h3>Contactate con el asesor/a de la tienda por Messenger</h3>
-          <a href="m.me/107067204436025">
+          <a href="m.me/107067204436025" target="_blank">
             <div className="caja1">
               <FacebookOutlined
                 style={{
@@ -29,7 +29,7 @@ const ContactoPage = () => {
         </div>
         <div className="col-6">
           <h3>Contactate con el asesor/a de la tienda por Instagram</h3>
-          <a href="https://www.instagram.com/zoetstore/">
+          <a href="https://www.instagram.com/zoetstore/" target="_blank">
             <div className="caja1">
               <InstagramOutlined className="instaicon" />
             </div>
@@ -37,7 +37,7 @@ const ContactoPage = () => {
         </div>
         <div className="col-12">
           <h3>Contactate con el asesor/a de la tienda por WhatsApp</h3>
-          <a href="https://wa.link/j85ga4">
+          <a href="https://wa.link/j85ga4" target="_blank">
             <div className="caja1">
               <WhatsAppOutlined
                 style={{
