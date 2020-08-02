@@ -68,9 +68,8 @@ const Button = ({ isGoogleSignIn, inverted, price, carItem }) => {
           onClose: () => {
             clearInterval(timerInterval);
           },
-        }).then((result) => {
+        }).then(() => {
           if (!addToFirestore(fields)) {
-            console.log(fields);
             Swal.fire(
               "Exito!",
               "Su pedido ha sido generado exitosamente",
